@@ -1,0 +1,89 @@
+JAVASCRIPT:
+Browser: client side
+
+React js: framework:
+
+js --> html
+<h1 id="demo"></h1>
+
+const x = doc......
+x.innerHtml = var..
+
+---------->
+form:
+common logic: fw, business logic:
+
+SQL: database connection --> 10 line -->common
+Query: Devle..
+
+----> 
+frontend framework  : html css js
+	react js, angular js
+backend fw: java,python js, .net
+	:spring, node, ,,,Django, fast api
+
+<------------------------------------------->
+
+Facebook: 2004 PHP
+Backend : PHP
+Frontend: PHP  tightly bounded
+
+<--------->
+
+2006 -->upgrade: secr... frontend  design: PHP limited
+Fronentd --> backend
+MVC: N tire application:
+
+---> frontend ui:  adopt ??? Angular js jquery, React js
+---> backend fw:
+
+MERN:
+mongodb,
+express
+react
+node
+<----->
+react project
+
+react js : system : node js
+
+open cmd
+type node : 
+
+
+D: | C:
+  projects
+    MERN --> ctrl + l -->type cmd enter
+
+npm create vite
+learning26
+react
+javascript
+cd learning26
+npm install
+code .
+
+server start:
+
+open new terminal
+type cmd enter
+
+before start server confirm path it should till learning26
+
+npm run dev
+
+npm create vite:
+
+npm: node package manager:
+
+JDK: jvm/jre --> .jar  --> packages --> class --> methods
+
+NPM --> node_modules --> build /dist --> packages --> js/ts -> functions
+
+node js:
+node_modules:
+
+npm run dev
+
+vite tool: fw:
+
