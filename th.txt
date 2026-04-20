@@ -87,3 +87,35 @@ npm run dev
 
 vite tool: fw:
 
+
+react js:
+component based arch:
+
+Diff component:
+ecomm:
+Header
+ProductS
+Footer
+create
+payment
+address..
+
+react js 2 type component:
+1st class based component: class
+2nd function based component: function ---> 16.8 ---> function based
+
+how to create cust component:
+
+
+src:
+ components
+
+
+component rules:
+component name must starts with Cap
+
+  
+
+
+if export const import with {}
+if export default import without {}
