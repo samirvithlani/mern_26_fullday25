@@ -26,6 +26,7 @@ function App() {
       <HeaderComponent></HeaderComponent>
       <ContentComponent></ContentComponent>
       <FooterComponent></FooterComponent>
+      
     </div>
   )
 }
