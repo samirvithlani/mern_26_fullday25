@@ -119,3 +119,16 @@ component name must starts with Cap
 
 if export const import with {}
 if export default import without {}
+
+array:
+let arr =[10,20,30]
+index
+0 -> len-1
+arr[1]
+
+for(let i=0;i<arr.length;i++){
+  console.log(arr[i])
+}
+
+--> forEach -->void
+--> map --->
