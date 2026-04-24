@@ -6,6 +6,8 @@ import { HeaderComponent } from './components/HeaderComponent'
 import FooterComponent from './components/FooterComponent'
 import { ContentComponent } from './components/ContentComponent'
 import { MapDemo1 } from './components/MapDemo1'
+import { MapDemo2 } from './components/MapDemo2'
+import { MapDemo3 } from './components/MapDemo3'
 
 function App() {
 
@@ -27,7 +29,9 @@ function App() {
       {/* <HeaderComponent></HeaderComponent>
       <ContentComponent></ContentComponent>
       <FooterComponent></FooterComponent> */}
-      <MapDemo1></MapDemo1>
+      {/* <MapDemo1></MapDemo1> */}
+      {/* <MapDemo2></MapDemo2> */}
+      <MapDemo3></MapDemo3>
     </div>
   )
 }
