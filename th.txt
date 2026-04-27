@@ -153,3 +153,62 @@ var products = [
 ];
 
 
+1.
+
+Change text color to red if price > 50000, otherwise **black`.
+
+2.
+
+If stock === 0, show text "Out of Stock" in red, otherwise show **"In Stock" in green`.
+
+3.
+
+Make background yellow if discount > 20, otherwise **white`.
+
+4.
+
+If rating >= 4.5, make text bold, otherwise normal.
+
+5.
+
+Reduce opacity to 0.5 if isAvailable === false, otherwise **1`.
+
+6.
+
+If category === "Electronics", set text color blue, otherwise **black`.
+
+7.
+
+If brand === "Apple" OR brand === "Sony", set text color purple, otherwise **black`.
+
+8.
+
+If price < 2000, set background lightgreen, otherwise no background.
+
+9.
+
+Show "🔥 Hot Deal" only if discount >= 25.
+
+10.
+
+If stock < 10, show text color orange, otherwise **green`.
+
+11.
+
+If rating < 3, show text color red, otherwise **black`.
+
+12.
+
+If isAvailable === false, show text "Not Available", otherwise **"Available"`.
+
+13.
+
+If price > 20000 AND discount > 10, set text color blue, otherwise **black`.
+
+14.
+
+If category === "Clothing", make font style italic, otherwise normal.
+
+15.
+
+If stock === 0, set background lightgray, otherwise **white`.
