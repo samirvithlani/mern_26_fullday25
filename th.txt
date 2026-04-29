@@ -212,3 +212,23 @@ If category === "Clothing", make font style italic, otherwise normal.
 15.
 
 If stock === 0, set background lightgray, otherwise **white`.
+
+<<-------------------------------------------------------------------->>
+commetn:
+React Routing:
+<a href ="url"> 
+components: ->url* 
+
+Component -> url
+3rd package: react-router-dom
+
+npm i react-router-dom
+
+<BrowserRouter> : to enable routing in react application
+                : main.jsx
+<Routes>        : it will hold all urls:
+<Route>         : it will use for create url for component
+
+
+
+
