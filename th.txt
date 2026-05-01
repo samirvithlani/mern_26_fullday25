@@ -230,5 +230,8 @@ npm i react-router-dom
 <Route>         : it will use for create url for component
 
 
+react js is single page application
+SPA: --> No page refresh 
+
 
 
