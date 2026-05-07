@@ -16,6 +16,8 @@ import { Navbar } from './components/Navbar'
 import { Error404 } from './components/Error404'
 import { Watch } from './components/netflix/Watch'
 import { NetflixMovies } from './components/netflix/NetflixMovies'
+import { Teams } from './components/Teams'
+import { TeamDetail } from './components/TeamDetail'
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
           <Route path='/netflixmovies' element={<NetflixMovies/>}></Route>
           <Route path='/watch/:name' element = {<Watch/>}></Route>
           <Route path='/*' element = {<Error404/>}></Route>
+          <Route path = "/teams" element = {<Teams/>}></Route>
+          <Route path = "/teamdetail/:name" element = {<TeamDetail/>}></Route>
         </Routes>
     </div>
   )

@@ -235,3 +235,5 @@ SPA: --> No page refresh
 
 
 
+Teams:
+TeamDetail:  --> :id
