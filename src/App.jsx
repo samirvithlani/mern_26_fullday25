@@ -33,7 +33,7 @@ function App() {
           <Route path='/watch/:name' element = {<Watch/>}></Route>
           <Route path='/*' element = {<Error404/>}></Route>
           <Route path = "/teams" element = {<Teams/>}></Route>
-          <Route path = "/teamdetail/:name" element = {<TeamDetail/>}></Route>
+          <Route path = "/teamdetail/:id" element = {<TeamDetail/>}></Route>
         </Routes>
     </div>
   )
