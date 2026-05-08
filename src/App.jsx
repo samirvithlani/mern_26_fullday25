@@ -20,6 +20,8 @@ import { Teams } from './components/Teams'
 import { TeamDetail } from './components/TeamDetail'
 import { UseStateDemo1 } from './components/UseStateDemo1'
 import { UseStateDemo2 } from './components/UseStateDemo2'
+import { UseStateDemo3 } from './components/UseStateDemo3'
+import { UseStateDemo4 } from './components/UseStateDemo4'
 
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
           <Route path = "/teamdetail/:id" element = {<TeamDetail/>}></Route>
           <Route path='/useStateDemo1' element ={<UseStateDemo1/>}></Route>
           <Route path='/useStateDemo2' element ={<UseStateDemo2/>}></Route>
+          <Route path='/useStateDemo3' element ={<UseStateDemo3/>}></Route>
+          <Route path='/useStateDemo4' element ={<UseStateDemo4/>}></Route>
         </Routes>
     </div>
   )
