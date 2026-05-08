@@ -237,3 +237,20 @@ SPA: --> No page refresh
 
 Teams:
 TeamDetail:  --> :id
+
+React hook:
+hook: react js comp lifecyle function
+all hook name starts with use eg: useParams,useState,useEffect,,...
+
+useState: to manage state in react compoennt we will useState hook
+DOM:Document object model:
+BOM:browse object model:
+
+DOM full obejct update always
+
+DOM : replica / copy --> light wighted copy: Virtual DOM
+
+changes --> dom*** ---->virtua dom
+VDOM --> document 
+
+useState

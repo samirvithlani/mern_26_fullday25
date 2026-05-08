@@ -18,6 +18,8 @@ import { Watch } from './components/netflix/Watch'
 import { NetflixMovies } from './components/netflix/NetflixMovies'
 import { Teams } from './components/Teams'
 import { TeamDetail } from './components/TeamDetail'
+import { UseStateDemo1 } from './components/UseStateDemo1'
+import { UseStateDemo2 } from './components/UseStateDemo2'
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
           <Route path='/*' element = {<Error404/>}></Route>
           <Route path = "/teams" element = {<Teams/>}></Route>
           <Route path = "/teamdetail/:id" element = {<TeamDetail/>}></Route>
+          <Route path='/useStateDemo1' element ={<UseStateDemo1/>}></Route>
+          <Route path='/useStateDemo2' element ={<UseStateDemo2/>}></Route>
         </Routes>
     </div>
   )
