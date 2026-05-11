@@ -254,3 +254,17 @@ changes --> dom*** ---->virtua dom
 VDOM --> document 
 
 useState
+
+
+any react hook we can write at componentn level only
+
+var x = [10,20,30]
+
+//spread op
+var x1 = [...x,100,200,300,400]
+console.log(x1)
+
+
+var user = {id:1,name:"amit"}
+var updateduser = {...user,age:24}
+console.log(updateduser)
