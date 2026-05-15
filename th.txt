@@ -268,3 +268,9 @@ console.log(x1)
 var user = {id:1,name:"amit"}
 var updateduser = {...user,age:24}
 console.log(updateduser)
+
+
+html:
+
+fun 
+demo(event)
