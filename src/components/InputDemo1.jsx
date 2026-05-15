@@ -5,6 +5,7 @@ export const InputDemo1 = () => {
     const [name, setname] = useState("")
     const [age, setage] = useState("")
     const [isClicked, setisClicked] = useState(false)
+    const [color, setcolor] = useState("black")
 
 
 
@@ -20,6 +21,10 @@ export const InputDemo1 = () => {
     const clickHandler = ()=>{
         setisClicked(true)
     }
+    const colorHandler = (event)=>{
+        console.log(event.target.value)
+        setcolor(event.target.value)
+    }
   return (
     <div style={{textAlign:"center"}}>
         <h1>INPUT DEMO 1</h1>
@@ -32,6 +37,10 @@ export const InputDemo1 = () => {
             <label>AGe:</label>
             <input type='number' onChange={(event)=>{ageHandler(event)}}></input>
             {/* {age} */}
+        </div>
+        <div>
+            <label>COLOR</label>
+            <input type='color' onChange={(event)=>{colorHandler(event)}}></input>
         </div>
         <div>
             <button onClick={()=>{clickHandler()}}>CLICK</button>
