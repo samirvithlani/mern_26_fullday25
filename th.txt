@@ -287,3 +287,7 @@ Parent compoennt child comp
 IMPL:
 Students[p]
 StudentList[c]
+
+how to create resuable component in react:
+although all component in react is resuable
+and we can use props to pass data in resuable component
