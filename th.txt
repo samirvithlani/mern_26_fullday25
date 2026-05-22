@@ -274,3 +274,16 @@ html:
 
 fun 
 demo(event)
+
+Comunication bw components:
+3 ways
+props
+context
+redux
+
+props: properties
+Parent compoennt child comp
+
+IMPL:
+Students[p]
+StudentList[c]
