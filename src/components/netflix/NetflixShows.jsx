@@ -3,10 +3,15 @@ import { Link } from "react-router-dom";
 import { MyButton } from "../MyButton";
 
 export const NetflixShows = () => {
+
+  const showTest = ()=>{
+    alert("show test")
+  }
+
   return (
     <div style={{ textAlign: "center" }}>
       <h1>NetflixShows</h1>
-      <MyButton></MyButton>
+      <MyButton funName={showTest} bgcolor="gray"></MyButton>
       <li>
         <Link to="/watch/friends">Friends</Link>
       </li>
