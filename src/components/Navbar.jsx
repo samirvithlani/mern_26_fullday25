@@ -82,6 +82,16 @@ export const Navbar = () => {
                 students
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/table">
+                table
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/table2">
+                table2
+              </Link>
+            </li>
             
             
             
