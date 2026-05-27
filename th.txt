@@ -291,3 +291,14 @@ StudentList[c]
 how to create resuable component in react:
 although all component in react is resuable
 and we can use props to pass data in resuable component
+
+
+<--------------------------------------------------->
+
+parent component -->Books --?bookArray 
+parent comp funct ==-- >deletBook --> call this function from child componet from every roq
+child --> book id -->parent component
+Child Component -->BookList --> array iterate map
+
+id name .... action
+1   java     Delete
