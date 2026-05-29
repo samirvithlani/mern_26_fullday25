@@ -302,3 +302,15 @@ Child Component -->BookList --> array iterate map
 
 id name .... action
 1   java     Delete
+<----------------------------------------------------->
+
+
+form data ->handle -->
+npm i react-hook-form
+
+handleSubmit = (func)=>{
+
+  //register ->data process..
+  func(data) //
+
+}
