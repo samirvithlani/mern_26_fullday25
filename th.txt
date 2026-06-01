@@ -314,3 +314,33 @@ handleSubmit = (func)=>{
   func(data) //
 
 }
+
+required
+min
+max
+minLength
+maxLength
+validate
+pattern
+
+
+
+{
+  required:
+  {
+    value:true,
+    message:"email is required"
+    }
+}
+
+{
+            required:
+            {
+                value:true,
+                message:"email is required"
+            }
+}
+
+optional op:
+?.
+
