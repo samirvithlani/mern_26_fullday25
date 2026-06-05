@@ -31,6 +31,7 @@ import { TableDemo2 } from './components/TableDemo2'
 import { FormDemo1 } from './components/form/FormDemo1'
 import { FormDemo2 } from './components/form/FormDemo2'
 import { FormDemo3 } from './components/form/FormDemo3'
+import { FormDemo4 } from './components/form/FormDemo4'
 
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
           <Route path='/formdemo1' element ={<FormDemo1/>}></Route>
           <Route path='/formdemo2' element ={<FormDemo2/>}></Route>
           <Route path='/formdemo3' element = {<FormDemo3/>}></Route>
+          <Route path='/formdemo4' element ={<FormDemo4/>}></Route>
         </Routes>
     </div>
   )

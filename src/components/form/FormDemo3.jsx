@@ -2,7 +2,8 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 
 export const FormDemo3 = () => {
-    const {register,handleSubmit,formState:{errors}}=useForm()
+    //onChange,onSubmit,onBlur,all
+    const {register,handleSubmit,formState:{errors}}=useForm({mode:"all"})
     const refcodeList =["insta","facebook","google"]
     const submitHandler = (data)=>{
         console.log(data);
