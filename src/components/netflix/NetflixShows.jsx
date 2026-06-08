@@ -12,6 +12,7 @@ export const NetflixShows = () => {
     <div style={{ textAlign: "center" }}>
       <h1>NetflixShows</h1>
       <MyButton funName={showTest} bgcolor="gray"></MyButton>
+      <Link to ="/common" state={{"from":"/netflixshows"}}>Common</Link>
       <li>
         <Link to="/watch/friends">Friends</Link>
       </li>

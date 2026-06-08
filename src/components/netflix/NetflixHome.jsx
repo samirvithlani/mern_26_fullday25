@@ -1,5 +1,6 @@
 import React from 'react'
 import { MyButton } from '../MyButton'
+import { Link } from 'react-router-dom'
 
 export const NetflixHome = () => {
   const homeTest = (x)=>{
@@ -10,6 +11,7 @@ export const NetflixHome = () => {
       
         <h1>NETFLIX HOME</h1>
         <MyButton funName={()=>{homeTest(100)}} name="home button"></MyButton>
+        <Link to ="/common" state={{"from":"/netflixhome"}}>Common</Link>
     </div>
   )
 }

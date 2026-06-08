@@ -344,3 +344,14 @@ pattern
 optional op:
 ?.
 
+A --> link  --> Common
+B link  Common
+c link Common
+d -> link  Common
+
+common -->button --back
+
+no browser 
+
+Link to ="common" state ={{from:"/path"}}
+
