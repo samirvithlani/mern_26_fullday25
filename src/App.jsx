@@ -35,6 +35,7 @@ import { FormDemo4 } from './components/form/FormDemo4'
 import { FormDemo5 } from './components/form/FormDemo5'
 import { Common } from './components/Common'
 import { FormDemo6 } from './components/form/FormDemo6'
+import { UseMemoDemo1 } from './components/UseMemoDemo1'
 
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
           <Route path='/formdemo5' element ={<FormDemo5/>}></Route>
           <Route path='/formdemo6' element ={<FormDemo6/>}></Route>
           <Route path='/common' element = {<Common/>}></Route>
+          <Route path='/usememodemo1' element  ={<UseMemoDemo1/>}></Route>
         </Routes>
     </div>
   )
