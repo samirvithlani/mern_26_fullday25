@@ -1,12 +1,21 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 
 export const FindGameBomb = () => {
   const gridsize = 5;
   var totalTiles = gridsize * gridsize;
   const [clickedTiles, setclickedTiles] = useState([])
+  const [isGameover, setisGameover] = useState(false)
+
+  const randomNo = useMemo(()=>{
+    return Math.floor(Math.random()*totalTiles)
+  },[])
+  console.log(randomNo)
 
   const clickHandler = (index)=>{
     setclickedTiles([...clickedTiles,index])  
+    if(index==randomNo){
+        setisGameover(true)
+    }
   }
   return (
     <div style={{ textAlign: "center" }}>
@@ -34,7 +43,11 @@ export const FindGameBomb = () => {
                 backgroundColor:clickedTiles.includes(index)?"gray":"white",
                 cursor: "pointer",
               }}
-            >{index}</div>
+            >
+                {
+                    isGameover && randomNo == index? "💣" :index
+                }
+            </div>
           );
         })}
       </div>
