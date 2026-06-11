@@ -128,6 +128,11 @@ export const Navbar = () => {
                 usememodemo1
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/findbomb">
+                findbomb
+              </Link>
+            </li>
             
             
             
