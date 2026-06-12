@@ -133,6 +133,12 @@ export const Navbar = () => {
                 findbomb
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/apidemo1">
+                apidemo1
+              </Link>
+            </li>
+            
             
             
             

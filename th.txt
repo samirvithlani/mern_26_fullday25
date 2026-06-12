@@ -355,4 +355,52 @@ Link to ="common" state ={{from:"/path"}}
 useState --> change --> component rernder
 
 useMemo : -->
+-----------------------------------------------
+API: application programming interface ... 
+
+Java ---> react --> possible
+
+china -->[] <-
+transl -->
+
+URL ->
+java -->url  python -->url -->
+url ->data --> web service [rest web service] rest apis
+data type:
+
+json -->XML[rule ->]
+communcation:
+-->url -->op -->
+request method:
+
+GET
+POST
+put,
+delete
+
+
+fullstack dev:
+API-->
+API-->
+
+producer <--> consumer
+
+BE:
+GET: -->db fetch -->frontend
+POST :->frontend -->data --->db store
+put
+DELETE:
+
+js --> fetch function
+AXIOS package
+
+only get api can call from browser direclty:
+npm i axios
+
+sync
+non sync:
+
+Promise
+
+
 

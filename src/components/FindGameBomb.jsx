@@ -42,6 +42,7 @@ export const FindGameBomb = () => {
                 //backgroundColor: "white",
                 backgroundColor:clickedTiles.includes(index)?"gray":"white",
                 cursor: "pointer",
+                pointerEvents:isGameover && "none"
               }}
             >
                 {
