@@ -38,6 +38,7 @@ import { FormDemo6 } from './components/form/FormDemo6'
 import { UseMemoDemo1 } from './components/UseMemoDemo1'
 import { FindGameBomb } from './components/FindGameBomb'
 import { ApiDemo1 } from './components/api/ApiDemo1'
+import { OmdbSearch } from './components/api/OmdbSearch'
 
 
 function App() {
@@ -74,6 +75,7 @@ function App() {
           <Route path='/usememodemo1' element  ={<UseMemoDemo1/>}></Route>
           <Route path='/findbomb' element = {<FindGameBomb/>}></Route>
           <Route path='/apidemo1' element = {<ApiDemo1/>}></Route>
+          <Route path='/searchomdb' element = {<OmdbSearch/>}></Route>
 
         </Routes>
     </div>

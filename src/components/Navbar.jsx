@@ -92,7 +92,7 @@ export const Navbar = () => {
                 table2
               </Link>
             </li> */}
-            <li
+            {/* <li
              class="nav-item active">
               <Link class="nav-link" to="/formdemo1">
                 Form Demo 1
@@ -132,12 +132,18 @@ export const Navbar = () => {
               <Link class="nav-link" to="/findbomb">
                 findbomb
               </Link>
-            </li>
+            </li> */}
             <li class="nav-item active">
               <Link class="nav-link" to="/apidemo1">
                 apidemo1
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/searchomdb">
+                searchomdb
+              </Link>
+            </li>
+            
             
             
             
