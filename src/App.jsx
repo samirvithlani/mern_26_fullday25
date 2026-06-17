@@ -41,6 +41,7 @@ import { ApiDemo1 } from './components/api/ApiDemo1'
 import { OmdbSearch } from './components/api/OmdbSearch'
 import { ApiDemo2 } from './components/api/ApiDemo2'
 import { ApiDemo22 } from './components/api/ApiDemo22'
+import { UseEffectDemo1 } from './components/UseEffectDemo1'
 
 
 function App() {
@@ -80,6 +81,7 @@ function App() {
           <Route path='/apidemo2' element = {<ApiDemo2/>}></Route>
           <Route path='/apidemo22' element = {<ApiDemo22/>}></Route>
           <Route path='/searchomdb' element = {<OmdbSearch/>}></Route>
+          <Route path='/useeffecdemo1' element ={<UseEffectDemo1/>}></Route>
 
         </Routes>
     </div>

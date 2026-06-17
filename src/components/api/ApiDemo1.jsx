@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export const ApiDemo1 = () => {
 const [message, setmessage] = useState("")
@@ -17,11 +17,15 @@ const [users, setusers] = useState([])
         setusers(res.data.data) //-->fix
 
     }
+    
+    useEffect(()=>{
+        getUsers()
+    },[])
   return (
     <div style={{textAlign:"center"}}>
         <h1>ApiDemo1</h1>
         {message}
-        <button onClick={getUsers}>GET</button>
+        {/* <button onClick={getUsers}>GET</button> */}
         {
         users.map((u)=>{
             return <li>{u.name}</li>

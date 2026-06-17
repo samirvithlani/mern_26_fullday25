@@ -429,6 +429,13 @@ password:string
 
 json object
 
+useEffect:
+to handle side effect in react js will use useEffect hook
+side effect:
+
+component ->load --> effect side
+useEffect will load once when component is loaded.
+
 
 
 
