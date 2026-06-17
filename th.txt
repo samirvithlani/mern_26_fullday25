@@ -403,4 +403,33 @@ non sync:
 Promise
 
 
+movie detail Link
+
+to ="moviedetail/:imdbID>
+
+
+moviedetail
+
+function getmoviedetail =()=>{
+
+  //api
+  `http://www.omdbapi.com/?apikey=addyour key&i=${imdbID}`,
+
+  //log
+}
+
+URL:https://node5.onrender.com/user/user/
+data -->???
+
+name :string
+age : number
+email:string
+isActive : boolean
+password:string
+
+json object
+
+
+
+
 

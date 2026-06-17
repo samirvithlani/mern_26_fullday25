@@ -7,7 +7,7 @@ export const OmdbSearch = () => {
   const searchMovie = async () => {
 
     const res = await axios.get(
-      `http://www.omdbapi.com/?apikey=addyour key&s=${movieName}`,
+      `http://www.omdbapi.com/?apikey=9d57be0b&s=${movieName}`,
     );
     console.log(res); //axios object
     //api response..
@@ -29,6 +29,7 @@ export const OmdbSearch = () => {
               <div className="card-body">
                 <h5 className="card-title">{movie.Title}</h5>
                 <h5 className="card-title">{movie.Year}</h5>
+                <h5 className="card-title">{movie.imdbID}</h5>
               </div>
             </div>
           </div>
