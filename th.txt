@@ -438,5 +438,20 @@ useEffect will load once when component is loaded.
 
 
 
+https://node5.onrender.com/product/create
 
 
+
+{
+      "name": "t-shirt",
+      "price": 599,
+      "description": "okok",
+      "colors": [
+        "Red",
+        "Green",
+        "Yellow"
+      ],
+      "size": "m",
+      "isAvailable": true,
+      "unit": 10,
+},
