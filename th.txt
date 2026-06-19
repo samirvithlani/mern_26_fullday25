@@ -455,3 +455,6 @@ https://node5.onrender.com/product/create
       "isAvailable": true,
       "unit": 10,
 },
+
+DELETE:
+https://node5.onrender.com/user/user/id
