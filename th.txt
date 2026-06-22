@@ -458,3 +458,8 @@ https://node5.onrender.com/product/create
 
 DELETE:
 https://node5.onrender.com/user/user/id
+
+login:
+{email:"",password:""}
+POST : https://node5.onrender.com/user/login
+-->response..
