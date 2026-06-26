@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Loader } from "../Loader";
 import { toast } from "react-toastify";
 import { Modal } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export const ApiDemo1 = () => {
   const [message, setmessage] = useState("");
@@ -14,6 +15,7 @@ export const ApiDemo1 = () => {
   const getUserDetail =async(id)=>{
     //api...
     const res = await axios.get(`https://node5.onrender.com/user/user/${id}`)
+   
     console.log("res..",res)
     //res.data --->api response
     //res.data.data -->object ..
@@ -89,6 +91,7 @@ export const ApiDemo1 = () => {
                   <button className="btn btn-primary" onClick={()=>{getUserDetail(m._id)}}>
                     DETAIL
                   </button>
+                  <Link style={{marginLeft:"10px"}} className="btn btn-warning" to={`/updateuser/${m._id}`}>UPDATE</Link>
                 </td>
               </tr>
             );
