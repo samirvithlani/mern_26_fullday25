@@ -158,6 +158,12 @@ export const Navbar = () => {
                 useeffecdemo1
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/addproducts">
+                addproducts
+              </Link>
+            </li>
+            
             
             
             

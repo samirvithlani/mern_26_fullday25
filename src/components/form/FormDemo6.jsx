@@ -9,7 +9,7 @@ export const FormDemo6 = () => {
     //fileds ==>array
 
     const submitHandler = (data)=>{
-        console.log(data)
+        console.log(data) //array
     }
 
   return (
