@@ -163,6 +163,17 @@ export const Navbar = () => {
                 addproducts
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/useRef">
+                useRef
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/useRef2">
+                useRef2
+              </Link>
+            </li>
+            
             
             
             
